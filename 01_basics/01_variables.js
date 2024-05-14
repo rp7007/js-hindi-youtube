@@ -13,4 +13,9 @@ accountCity = "Gorakhpur"
 
 console.log(accountId)
 
+/* 
+var is not preferred to be used
+because of issue in block scope and functional scope
+*/
+
 console.table([accountEmail, accountPassword, accountCity, accountState])
